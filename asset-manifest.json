@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.917f6379.css",
+    "main.js": "/portfolio/static/js/main.5ccffb9c.js",
+    "static/media/eee.png": "/portfolio/static/media/eee.21c112ecbb9f7e1ff2f4.png",
+    "static/media/avatar.png": "/portfolio/static/media/avatar.1b1b5717cd182909b719.png",
+    "static/media/robot.jpg": "/portfolio/static/media/robot.aa73d32c6ba0e319b977.jpg",
+    "static/media/contacttt.JPG": "/portfolio/static/media/contacttt.f389e43108d33ceb4394.JPG",
+    "static/media/mobilee.JPG": "/portfolio/static/media/mobilee.c5b5677ee9fd1ffd53fb.JPG",
+    "static/media/web_im.JPG": "/portfolio/static/media/web_im.216aa247aed8fbe0b9ed.JPG",
+    "static/media/instaaa.JPG": "/portfolio/static/media/instaaa.58d4c21f97757d2143de.JPG",
+    "static/media/fb_im.JPG": "/portfolio/static/media/fb_im.5df807bacf7f99ee4f5a.JPG",
+    "static/media/linkeddd.JPG": "/portfolio/static/media/linkeddd.8968f25af1cf06ec9cf8.JPG",
+    "static/media/hirre.JPG": "/portfolio/static/media/hirre.90bb4a08f8bc5ec7ecfc.JPG",
+    "index.html": "/portfolio/index.html",
+    "main.917f6379.css.map": "/portfolio/static/css/main.917f6379.css.map",
+    "main.5ccffb9c.js.map": "/portfolio/static/js/main.5ccffb9c.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.917f6379.css",
+    "static/js/main.5ccffb9c.js"
+  ]
+}
