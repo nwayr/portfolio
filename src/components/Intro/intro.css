@@ -1,0 +1,77 @@
+#intro{
+    height: calc(100vh - 4rem);
+    width: 100vw;
+    max-width:75rem;
+    margin: 0 auto;
+    overflow: hidden;
+    position: relative;
+
+}
+.bg {
+    position: absolute;
+    z-index: -2;
+    top: -1rem;
+    right: 0;
+    object-fit: cover;
+    height: 75vh;
+}
+.introContent {
+    height: 100vh;
+    width: 200vw;
+    padding: 2rem;
+    font-size: 4rem;
+    font-weight: 700;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+.hello {
+
+    font-size: 1.5rem;
+    font-weight: 40;
+}
+.introName {
+    color: yellow;
+}
+.introPara {
+    font-size: x-large;
+    font-weight: 200;
+}
+.introText {
+    font-size: xx-large;
+}
+.btn {
+    background: white;
+    color: black;
+    height: 2rem;
+    margin: 1rem 1rem;
+    width: 200vw;
+    border: none;
+    border-radius: 3rem;
+    font-size: 2rem;
+}
+.btnImg {
+    object-fit: cover;
+    margin: 0 0.25rem;
+    height: 1.5rem;
+    padding: -1rem;
+    
+}
+@media screen and (max-width:840px) {
+    .bg {
+        right: -10vw;
+    }
+}
+.introContent {
+    font-size: 10vw;
+}
+.hello {
+    font-size: 4.5vw;
+}
+@media screen and (max-width:480px) {
+    .bg {
+        right: -20vw;
+    }
+}
+
