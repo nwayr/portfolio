@@ -1,13 +1,10 @@
 import React from 'react';
-import './contact.css';
-import FacebookIcon from '../../l/fb_im.png';
-import InstagramIcon from '../../l/instaaa.JPG';
-import LinkedinIcon from '../../l/linkeddd.JPG';
+import './education.css';
 
-const Contact = () => {
+const Education = () => {
     return (
     
-      <section className="Skills" id="skills">
+      <section className="Education" id="education">
         <h2 className="heading">My <span>Skills</span></h2>
 
         <div className="skills-row">
@@ -24,7 +21,7 @@ const Contact = () => {
                             <div className="bar"> <span></span></div>
                         </div>
                         <div className="progress">
-                            <h3>Java Script <span>85%</span></h3>
+                            <h3>Java Script <span>100%</span></h3>
                             <div className="bar"> <span></span></div>
                     </div>
                     <div className="progress">
@@ -60,29 +57,9 @@ const Contact = () => {
             </div>
 
 
-
-
-
-        <section id="contactPage">
-            <div id="contact">
-                <h1 className="contactPageTitle">Contact Me</h1>
-                <span className="contactDesc"><br/>Please fill out the form below to discuss any work opportunities</span>
-                <form className="contactForm">
-                    <input type="text" className="name" placeholder='Your Name' name='your_name' />
-                    <input type="email" className="email" placeholder='Your Email' name='your_email'/>  
-                    <textarea className='msg' name='message' rows="5" placeholder='Your Message'>Your Message </textarea>
-                    <button type='submit' value='send' className="submitBtn">Submit</button>
-                    <div className="links">
-                        <img src={FacebookIcon} alt="Facebook" className="link" />
-                        <img src={InstagramIcon} alt="Instagram" className="link" />
-                        <img src={LinkedinIcon} alt="Linkedin" className="link" />
-                     </div> 
-                </form>
-            </div>
-        </section>
         </div>
       </section>
     );
 }
 
-export default Contact;
+export default Education;

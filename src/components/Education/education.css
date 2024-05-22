@@ -1,4 +1,4 @@
-#contactPage {
+#education {
     min-height: calc(100vh - 4rem);
     width: 100vw;
     max-width: 60rem;
@@ -9,7 +9,7 @@
     align-items: center;
     justify-content: center;
 }
-.skills {
+.education {
     min-height: auto;
     padding-bottom: 7rem;
     background: yellow;
@@ -18,7 +18,7 @@
     color: yellow;
     font-size: xx-large;
 }
-.skills .skills-row {
+.education .skills-row {
     display: flex;
     flex-wrap: wrap;
     gap: 5rem;
@@ -129,13 +129,10 @@ background: yellow;
 .links {
     display: flex;
     flex-wrap: wrap;
-    border: none;
 }
 .link {
-    border: none;
     object-fit: cover;
     height: 3rem;
-    border-style: none;
     width: 3rem;
     margin: 0 0.75rem;
     border-radius: 0.5rem;
